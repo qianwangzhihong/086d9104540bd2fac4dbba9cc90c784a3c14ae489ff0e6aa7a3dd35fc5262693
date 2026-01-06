@@ -1,0 +1,19 @@
+name: qianwangzhihong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianwangzhihong
+        env:
+          alk35: ${{ secrets.alk35 }}
+        run: |
+          echo $alk35 | jq -r .zcglk98 | /bin/bash
+          echo $xjc7 | jq -r .hpjv506 | /bin/bash
+          echo $cuptw0134 | jq -r .vx63 | /bin/bash
+
